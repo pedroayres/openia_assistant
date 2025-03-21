@@ -35,7 +35,7 @@ Update with your API KEY an .env file at the root of your repository:
 
 4. Access the Application
 
-After the container starts successfully, your assistant application will be ready for interaction.
+```docker-compose run python_scripts python app.py```
 
 ⸻
 

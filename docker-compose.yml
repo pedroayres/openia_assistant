@@ -1,0 +1,11 @@
+services:
+  python_scripts:  # Changed from 'python' to 'python_scripts'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python_scripts
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
